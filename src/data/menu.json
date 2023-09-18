@@ -1,0 +1,28 @@
+
+
+
+[
+    {
+        "id":1,
+        "text":"Home",
+         "routeName":""
+    },
+    {
+        "id":2,
+        "text":"Listing",
+         "routeName":"listing"
+    },
+    {
+        "id":3,
+        "text":"Testimonials",
+         "routeName":"testimonial"
+    },
+    {
+        "id":4,
+        "text":"Contact",
+         "routeName":"contact"
+    }
+ 
+
+
+]

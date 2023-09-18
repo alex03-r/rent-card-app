@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "name":"Anyel",
+         "job":"Developer"
+    },
+    {
+        "id":2,
+        "name":"Carlos",
+         "job":"Accounting"
+    },
+    {
+        "id":3,
+        "name":"Juan",
+         "job":"Customer"
+    },
+    {
+        "id":4,
+        "name":"Luisa",
+         "job":"Influencer"
+    },
+    {
+        "id":5,
+        "name":"Ruddy",
+         "job":"Pelotero"
+    },
+    {
+        "id":6,
+        "name":"Yuly",
+         "job":"Electrisista"
+    },
+    {
+        "id":7,
+        "name":"Junior",
+         "job":"Medico"
+    },
+    {
+        "id":8,
+        "name":"Julio",
+         "job":"Destista"
+    }
+
+]

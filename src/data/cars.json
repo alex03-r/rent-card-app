@@ -1,0 +1,126 @@
+
+
+
+[
+
+    {
+        "id":123,
+        "name":"Tollota Corolla",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":1234,
+        "name":"Tollota Hilux",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":1236,
+        "name":" Honda Civi",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":13564,
+        "name":"Lamborginy",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":129123,
+        "name":" Honda Civi",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":12106,
+        "name":"Lamborginy",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":12005,
+        "name":"Tollota Corolla",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":123445,
+        "name":"Tollota Hilux",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":12367,
+        "name":" Honda Civi",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":1366,
+        "name":"Lamborginy",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":1295,
+        "name":" Honda Civi",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    },
+    {
+        "id":12103,
+        "name":"Lamborginy",
+        "price": 20000,
+        "luggage": 4,
+        "passengers":3,
+        "doors": 4,
+        "img": "hero_1_a.jpg"
+
+    }
+]
