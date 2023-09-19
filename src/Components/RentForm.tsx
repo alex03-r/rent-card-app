@@ -5,33 +5,34 @@ import Card from "../assets/hero_1_a.jpg"
 import "../styles/style.css"
 import { CardProps } from "./CarItem"
 import { CreditCardForm } from "./CreditCardForm"
+import { formarAmout } from "../utilities/format"
 
 export function RentForm({ car, isReadyToPay, setIsReadyToPay }: { car: CardProps, isReadyToPay: boolean, setIsReadyToPay: React.Dispatch<React.SetStateAction<boolean>> }) {
 
     const [inputs, setInputs] = useState({
-        name:"",
-        lastname:"",
-        email:"",
-        address:""
+        name: "",
+        lastname: "",
+        email: "",
+        address: ""
 
     })
 
-    const { name, lastname, email, address }  = inputs;
+    const { name, lastname, email, address } = inputs;
 
-    function handleInputsChange(e){
+    function handleInputsChange(e) {
 
-  
 
-        setInputs({ ...inputs, [e.target.name]:e.target.value  })
+
+        setInputs({ ...inputs, [e.target.name]: e.target.value })
 
 
     }
 
     function handleSubmit(e) {
         e.preventDefault()
-        if( !name || !lastname || !email || !address){
+        if (!name || !lastname || !email || !address) {
 
-            return 
+            return
 
 
         }
@@ -51,9 +52,9 @@ export function RentForm({ car, isReadyToPay, setIsReadyToPay }: { car: CardProp
                             <div className="row justify-content-center text-center">
                                 <div className="col-7 text-center mb-5">
                                     <h2>{car.name}</h2>
-                                    <img className="img-rent" src={Card} />
-                                    <p><strong>Price:</strong> {car.price}</p>
-                                    <p><strong>Passengers:</strong> {car.passengers}</p>
+                                    <img className="img-rent" src={car.img} />
+                                    <p><strong>Price:</strong> ${formarAmout(car.price)}</p>
+                                    <p><strong>Passengers:</strong>#{car.passengers}</p>
 
                                 </div>
                             </div>
@@ -66,11 +67,11 @@ export function RentForm({ car, isReadyToPay, setIsReadyToPay }: { car: CardProp
                                         <p className="text-center h2 mb-4" >Fill up the details</p>
                                         <div className="form-group row mb-3">
 
-                                            <div className="col-md-12 mb-3">                                           
-                                                <input name="name" value={name  } onChange={ handleInputsChange} type="text" className="form-control" placeholder="Name" />
+                                            <div className="col-md-12 mb-3">
+                                                <input name="name" value={name} onChange={handleInputsChange} type="text" className="form-control" placeholder="Name" />
                                             </div>
                                             <div className="col-md-12">
-                                                <input  name="lastname" value={lastname} onChange={handleInputsChange} type="text" className="form-control" placeholder="Lastname" />
+                                                <input name="lastname" value={lastname} onChange={handleInputsChange} type="text" className="form-control" placeholder="Lastname" />
                                             </div>
                                         </div>
 

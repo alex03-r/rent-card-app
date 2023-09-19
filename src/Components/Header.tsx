@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 import { HamburgerMenu } from "../Components/HaburgerMenu"
 import Menu from "../data/menu.json"
 
@@ -7,6 +7,7 @@ import { useState } from 'react'
 export function Header() {
 
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
+   const navigate =  useNavigate()
 
 
 
@@ -18,7 +19,7 @@ export function Header() {
                         <div onClick={() => setIsMenuOpen(!isMenuOpen)} style={{ cursor: "pointer", width: "20px" }} className="d-block  d-md-none mt-2">
                             <i className="bi bi-list"></i>
                         </div>
-                        <div style={{ cursor: "pointer" }} className="ms-2">
+                        <div onClick={() => navigate("/") } style={{ cursor: "pointer" }} className="ms-4">
                             <p  ><strong className="fs-2">CarRental</strong></p>
                         </div>
                     </div>

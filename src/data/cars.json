@@ -6,71 +6,71 @@
     {
         "id":123,
         "name":"Tollota Corolla",
-        "price": 20000,
+        "price": 10000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695079777/heroes/exqaubxzvcpx4ypap2nf.jpg"
 
     },
     {
         "id":1234,
         "name":"Tollota Hilux",
-        "price": 20000,
+        "price": 37000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695079712/heroes/xkjozi0cftj9x8fgam1b.jpg"
 
     },
     {
         "id":1236,
         "name":" Honda Civi",
-        "price": 20000,
+        "price": 15000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695079680/heroes/wjmsmbr3gwohq404mhax.jpg"
 
     },
     {
         "id":13564,
         "name":"Lamborginy",
-        "price": 20000,
+        "price": 120000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695079746/heroes/n3yjdqfseo8ly9ylyqfp.jpg"
 
     },
     {
         "id":129123,
-        "name":" Honda Civi",
-        "price": 20000,
+        "name":"For Ranger",
+        "price": 70000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695084555/heroes/jhijmk3raesxivbyydpm.jpg"
 
     },
     {
         "id":12106,
-        "name":"Lamborginy",
-        "price": 20000,
+        "name":"Nissan ",
+        "price": 6000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695084526/heroes/mykxb4smaurvofxbbqxj.jpg"
 
     },
     {
         "id":12005,
-        "name":"Tollota Corolla",
-        "price": 20000,
+        "name":"Mazda demio",
+        "price": 4000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695079806/heroes/uog8fziablnsg1jnqmqg.jpg"
 
     },
     {
@@ -80,47 +80,47 @@
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695079850/heroes/bkovb9d2bvns549y782u.jpg"
 
     },
     {
         "id":12367,
         "name":" Honda Civi",
-        "price": 20000,
+        "price": 10000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695084186/heroes/sflkccaeqogyg5qusmjb.jpg"
 
     },
     {
         "id":1366,
-        "name":"Lamborginy",
-        "price": 20000,
+        "name":"Ford Runner",
+        "price": 40000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695084124/heroes/nkyhflhoqn5rw0jdzvj1.jpg"
 
     },
     {
         "id":1295,
-        "name":" Honda Civi",
-        "price": 20000,
+        "name":"Sonata",
+        "price": 1000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695084057/heroes/icsj4wxn5cixbxjgctvv.jpg"
 
     },
     {
         "id":12103,
-        "name":"Lamborginy",
+        "name":"Nissan",
         "price": 20000,
         "luggage": 4,
         "passengers":3,
         "doors": 4,
-        "img": "hero_1_a.jpg"
+        "img": "http://res.cloudinary.com/dlsc2062n/image/upload/v1695084009/heroes/bdzv8dmj4u5fe8sztg5r.jpg"
 
     }
 ]

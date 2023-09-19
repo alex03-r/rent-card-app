@@ -108,7 +108,7 @@
 
                           .img-rent{
 
-                            width: 150px;
+                            width: 250px;
                             height: auto;
                             border-radius: 50%;
                           }
@@ -166,8 +166,8 @@
 .cvv-input input,
 .month select,
 .year select {
-    opacity: .7;
-    color: #86939e;
+    /* opacity: .7; */
+    color: black;
 }
 
 
@@ -175,7 +175,7 @@
   width: 100%;
   margin-bottom: 20px;
   padding-left: 20px;
-  border: 2px solid #e1e8ee;
+  border: 1px solid gray;
   border-radius: 6px;
 }
 
@@ -185,7 +185,7 @@
     width: 145px;
     margin-bottom: 20px;
     padding-left: 20px;
-    border: 2px solid #e1e8ee;
+    border: 1px solid gray;
     border-radius: 6px;
     background: url('caret.png') no-repeat;
     background-position: 85% 50%;
@@ -206,13 +206,13 @@
   float: left;
   width: 145px;
   padding-left: 20px;
-  border: 2px solid #e1e8ee;
+  border: 1px solid gray;
   border-radius: 6px;
   background: #fff;
 }
 
 .cvv-details {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 16px;
   float: right;

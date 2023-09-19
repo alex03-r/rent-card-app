@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import Cars from "../data/cars.json"
 import { RentForm } from "../Components/RentForm"
 import { useState } from "react"
+import { Footer } from "../Components/Footer"
 
 
 export function RentScreen() {
@@ -18,6 +19,7 @@ export function RentScreen() {
         <div>
       
             <RentForm car={carSelected!} isReadyToPay={isReadyToPay} setIsReadyToPay={setIsReadyToPay} />
+            <Footer/>
         </div>
     )
 }

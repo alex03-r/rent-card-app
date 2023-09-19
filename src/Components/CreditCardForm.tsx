@@ -1,31 +1,43 @@
 
+import { useState } from 'react';
+
 import "../styles/style.css"
 
 
 
-export function CreditCardForm(){
-
-  
+export function CreditCardForm() {
 
 
-    function handleSubmit(e){
-        e.preventDefault()
+  const [input, setinput] = useState("")
+
+  function handleSubmit(e) {
+    e.preventDefault()
+  }
+
+  function handleCard(e) {
+
+    if ( !isNaN(e.target.value)) {
+      setinput(e.target.value)
+
     }
 
-    return(
-        <div>
-            <p className="text-center h2" >Pay the rent!</p>
-            <form onSubmit={handleSubmit} className="credit-card mt-0">
+  }
+
+  return (
+    <div>
+      <p className="text-center h2 " >Pay the rent!</p>
+      <form onSubmit={handleSubmit} className="credit-card mt-0 shadow rounded border">
         <div className="form-header">
-          <h4 className="title">Credit card detail</h4>
+          <h4 className="text-dark">Credit card detail</h4>
         </div>
-       
+
         <div className="form-body">
 
-          <input type="text" className="card-number" placeholder="Card Number"/>
-       
-      
-          <div className="date-field">
+          <input type="text" className="card-number" onChange={handleCard} value={input} placeholder="Card Number" />
+
+
+          <div className="mt-1">
+            {/* date-field */}
             <div className="month">
               <select name="Month">
                 <option value="january">January</option>
@@ -56,23 +68,23 @@ export function CreditCardForm(){
               </select>
             </div>
           </div>
-       
-      
-          <div className="card-verification">
+
+
+          <div className="card-verification mt-3">
             <div className="cvv-input">
-              <input type="text" placeholder="CVV"/>
+              <input className="form-control" type="text" placeholder="CVV" />
             </div>
-            <div className="cvv-details">
-              <p>3 or 4 digits usually found <br/> on the signature strip</p>
+            <div className="cvv-details ">
+              <p>3 or 4 digits usually found <br /> on the signature strip</p>
             </div>
           </div>
-       
-      
-          <button type="submit" className="proceed-btn"><a href="#">Pay</a></button>
-     
+
+
+          <button type="submit" className="proceed-btn mt-5"><a href="#">Pay</a></button>
+
         </div>
       </form>
 
-        </div>
-    )
+    </div>
+  )
 }

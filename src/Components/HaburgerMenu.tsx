@@ -18,10 +18,10 @@ export function HamburgerMenu({ setIsMenuOpen }:{ setIsMenuOpen: React.Dispatch<
 
 
     return (
-        <div className="bg-light d-block  d-md-none " style={{ position: "absolute", left: "10px", width: "70%", height: "auto", zIndex: "5" }} >
-            <ul className="d-flex flex-column gap-2 ">
+        <div className="bg-light d-block  d-md-none   " style={{ position: "absolute", left: "10px", width: "70%", height: "auto", zIndex: "5" }} >
+            <ul className="d-flex flex-column gap-2 mt-3 ">
                 {
-                    Menu.map(menuItem => (  <li onClick={ () => onNavigate(menuItem.routeName) } key={menuItem.id} style={{ listStyle: "none", cursor: "pointer", marginTop:"" }} className=""><p className="nav-link">{ menuItem.text }</p></li>   ))
+                    Menu.map(menuItem => (  <li onClick={ () => onNavigate(menuItem.routeName) } key={menuItem.id} style={{ listStyle: "none", cursor: "pointer", marginTop:"", height:"30px" }} className=""><p className="nav-link border-bottom border-secondary">{ menuItem.text }</p></li>   ))
                 }
             </ul>
         </div>

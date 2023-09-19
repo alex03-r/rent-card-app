@@ -13,7 +13,7 @@ export interface CardProps {
 }
 
 import { useNavigate } from "react-router-dom";
-import Img from  "../assets/hero_1_a.jpg"
+import { formarAmout } from "../utilities/format";
 
 export function CarItem(props: CardProps) {
 
@@ -34,12 +34,12 @@ export function CarItem(props: CardProps) {
 
             <div className="listing d-block  align-items-stretch">
                 <div className="listing-img h-100 mr-4">
-                    <img src={Img} alt="Image" className="img-fluid" />
+                    <img src={props.img} alt="Image" className="img-fluid" />
                 </div>
                 <div className="listing-contents h-100">
                     <h3>{props.name}</h3>
                     <div className="rent-price">
-                        <strong>${props.price}</strong><span className="mx-1">/</span>day
+                        <strong>${ formarAmout(props.price)}</strong><span className="mx-1">/</span>day
                     </div>
                     <div className="d-block d-md-flex mb-3 gap-4 border-bottom pb-3">
                         <div className="listing-feature pr-4">

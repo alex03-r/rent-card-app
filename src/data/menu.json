@@ -16,13 +16,8 @@
         "id":3,
         "text":"Testimonials",
          "routeName":"testimonial"
-    },
-    {
-        "id":4,
-        "text":"Contact",
-         "routeName":"contact"
     }
- 
+
 
 
 ]
