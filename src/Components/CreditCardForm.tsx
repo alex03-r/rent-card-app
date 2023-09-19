@@ -1,17 +1,28 @@
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 import "../styles/style.css"
 
-
+import Swal from 'sweetalert2'
+import { useNavigate } from 'react-router-dom';
 
 export function CreditCardForm() {
 
+ const navigate =  useNavigate()
 
   const [input, setinput] = useState("")
 
-  function handleSubmit(e) {
+  function handleSubmit(e:React.FormEvent) {
     e.preventDefault()
+
+    Swal.fire({
+      icon: 'success',
+      title: 'Congrats you have rented your car! ',
+      text: 'You will receive more details to your email!',
+      willClose: () => navigate('/')
+    
+    })
+    
   }
 
   function handleCard(e) {
@@ -33,7 +44,7 @@ export function CreditCardForm() {
 
         <div className="form-body">
 
-          <input type="text" className="card-number" onChange={handleCard} value={input} placeholder="Card Number" />
+          <input type="text" className="card-number" maxLength={19} onChange={handleCard} value={input} placeholder="Card Number" />
 
 
           <div className="mt-1">
@@ -72,9 +83,9 @@ export function CreditCardForm() {
 
           <div className="card-verification mt-3">
             <div className="cvv-input">
-              <input className="form-control" type="text" placeholder="CVV" />
+              <input  type="text" placeholder="CVV" maxLength={3} />
             </div>
-            <div className="cvv-details ">
+            <div className="cvv-details "  >
               <p>3 or 4 digits usually found <br /> on the signature strip</p>
             </div>
           </div>

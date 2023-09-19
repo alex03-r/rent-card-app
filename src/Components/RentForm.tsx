@@ -1,7 +1,7 @@
 
 
 import React, { useState } from "react"
-import Card from "../assets/hero_1_a.jpg"
+
 import "../styles/style.css"
 import { CardProps } from "./CarItem"
 import { CreditCardForm } from "./CreditCardForm"

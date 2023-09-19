@@ -4,6 +4,7 @@ import { RentForm } from "../Components/RentForm"
 import { useState } from "react"
 import { Footer } from "../Components/Footer"
 
+import Swal from 'sweetalert2'
 
 export function RentScreen() {
 
@@ -19,7 +20,7 @@ export function RentScreen() {
         <div>
       
             <RentForm car={carSelected!} isReadyToPay={isReadyToPay} setIsReadyToPay={setIsReadyToPay} />
-            <Footer/>
+            <Footer />
         </div>
     )
 }
